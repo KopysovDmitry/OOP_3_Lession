@@ -9,6 +9,8 @@ public class Transport {
     private final String country;
     private int maxSpeed;
 
+    private double fuelPercentage;
+
 
     public Transport(String brand, String model, String colour, int year, String country, int maxSpeed) {
         setBrand(brand);
@@ -25,6 +27,21 @@ public class Transport {
             this.country = "Default";
         }
         setMaxSpeed(maxSpeed);
+
+    }
+
+    public double getFuelPercentage() {
+        return fuelPercentage;
+    }
+
+    public void setFuelPercentage(double fuelPercentage) {
+        if (fuelPercentage <= 0 && fuelPercentage > 100) {
+            System.out.println(" Не корректные данные по количеству топлива");
+        }
+        this.fuelPercentage = fuelPercentage;
+    }
+    public void refill(){
+        refill();
 
     }
 
