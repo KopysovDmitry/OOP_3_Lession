@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e28953e7-b458-4994-b44b-a14f884092fd" name="Changes" comment="done">
-      <change afterPath="$PROJECT_DIR$/src/Amphibians.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Animals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Birds.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Herbivories.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mammals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Predators.java" afterDir="false" />
+    <list default="true" id="e28953e7-b458-4994-b44b-a14f884092fd" name="Changes" comment="промежуточный коммит">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Transport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Transport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Amphibians.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Amphibians.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Animals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Birds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Birds.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FlyingBirds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FlyingBirds.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Herbivories.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Herbivories.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mammals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mammals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NotFlyingBirds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NotFlyingBirds.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Predators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Predators.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,13 +42,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -69,7 +71,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670582730520</updated>
-      <workItem from="1670582732698" duration="15660000" />
+      <workItem from="1670582732698" duration="16470000" />
+      <workItem from="1670671401169" duration="10347000" />
     </task>
     <task id="LOCAL-00001" summary="done">
       <created>1670592445307</created>
@@ -78,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670592445307</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="промежуточный коммит">
+      <created>1670624350481</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670624350481</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,6 +107,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="done" />
-    <option name="LAST_COMMIT_MESSAGE" value="done" />
+    <MESSAGE value="промежуточный коммит" />
+    <option name="LAST_COMMIT_MESSAGE" value="промежуточный коммит" />
   </component>
 </project>
