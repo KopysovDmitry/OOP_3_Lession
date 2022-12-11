@@ -3,11 +3,15 @@ public class NotFlyingBirds extends Birds{
 
     public NotFlyingBirds(String name, int years, String habidat, String movementTipe) {
         super(name, years, habidat);
+
+    }
+    public String chekData(){
         if (movementTipe != null && !movementTipe.isEmpty() && !movementTipe.isBlank()){
-        this.movementTipe = movementTipe;
+            this.movementTipe = movementTipe;
         }else {
             System.out.println("Wrong data");
         }
+        return chekData();
     }
 
     public String getMovementTipe() {

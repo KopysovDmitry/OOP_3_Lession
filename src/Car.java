@@ -120,6 +120,10 @@ public  class  Car extends Transport{
         result = result && Character.isDigit(number.charAt(8));
         return result;
     }
+    @Override
+    public void refill() {
+        System.out.println("я заправляюсь бензином");
+    }
 
     @Override
     public String toString() {

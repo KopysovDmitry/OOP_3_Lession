@@ -3,9 +3,6 @@ public class Predators extends Mammals{
 
     public Predators(String name, int years, String habidat, int travelSpeed, String pitFood) {
         super(name, years, habidat, travelSpeed);
-        if (pitFood !=null && !pitFood.isEmpty() && !pitFood.isBlank()){
-            this.pitFood = pitFood;
-        }
     }
 
     public String getPitFood() {
@@ -13,7 +10,9 @@ public class Predators extends Mammals{
     }
 
     public void setPitFood(String pitFood) {
-        this.pitFood = pitFood;
+        if (pitFood !=null && !pitFood.isEmpty() && !pitFood.isBlank()){
+            this.pitFood = pitFood;
+        }
     }
     public void toHunting(){
 

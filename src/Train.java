@@ -59,6 +59,12 @@ public class Train extends Transport{
         this.amountWagons = amountWagons;
     }
 
+    @Override
+    public void refill() {
+        System.out.println("я заправляюсь дизелем");
+    }
+
+
     public void trainInfo() {
         System.out.println(this +", biletCoste "+ costRide +", timeRide "+ timeRide +", nameStation "+ nameStation +
                 ", finalStation "+ finalStation +", amountWagons "+ amountWagons);

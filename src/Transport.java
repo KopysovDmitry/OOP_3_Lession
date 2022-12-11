@@ -1,6 +1,6 @@
 import java.time.LocalDate;
 
-public class Transport {
+public abstract class Transport {
 
     private String brand;
     private String model;
@@ -40,10 +40,10 @@ public class Transport {
         }
         this.fuelPercentage = fuelPercentage;
     }
-    public void refill(){
-        refill();
+    public abstract void refill();
 
-    }
+
+
 
     public String getBrand() {
         return brand;

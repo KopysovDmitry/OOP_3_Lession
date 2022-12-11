@@ -10,19 +10,14 @@ public class Mammals extends Animals{
 
     public Mammals(String name, int years, String habidat, int travelSpeed) {
         super(name, years);
+    }
+    public void setHabidat(String habidat) {
         if (habidat != null && !habidat.isEmpty() && !habidat.isBlank()){
             this.habidat = habidat;
         }else {
             System.out.println("Default");
         }
-        if (travelSpeed <0){
-            System.out.println("speed is wrong");
-        }
-        this.travelSpeed = travelSpeed;
-    }
 
-    public void setHabidat(String habidat) {
-        this.habidat = habidat;
     }
 
     public int getTravelSpeed() {
@@ -30,6 +25,9 @@ public class Mammals extends Animals{
     }
 
     public void setTravelSpeed(int travelSpeed) {
+        if (travelSpeed <0){
+            System.out.println("speed is wrong");
+        }
         this.travelSpeed = travelSpeed;
     }
     public void toWalk(){

@@ -5,11 +5,6 @@ public class FlyingBirds extends Birds{
 
     public FlyingBirds(String name, int years, String habidat, String movementTipe) {
         super(name, years, habidat);
-        if (movementTipe != null && !movementTipe.isEmpty() && !movementTipe.isBlank()){
-            this.movementTipe = movementTipe;
-        }else {
-            System.out.println("Wrong data");
-        }
     }
 
     public String getMovementTipe() {
@@ -17,7 +12,11 @@ public class FlyingBirds extends Birds{
     }
 
     public void setMovementTipe(String movementTipe) {
-        this.movementTipe = movementTipe;
+        if (movementTipe != null && !movementTipe.isEmpty() && !movementTipe.isBlank()){
+            this.movementTipe = movementTipe;
+        }else {
+            System.out.println("Wrong data");
+        }
     }
     public void toFly(){
 

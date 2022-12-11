@@ -5,11 +5,6 @@ public class Birds extends Animals{
 
     public Birds(String name, int years, String habidat) {
         super(name, years);
-        if (habidat != null && !habidat.isEmpty() && !habidat.isBlank()){
-        this.habidat = habidat;
-        }else {
-            System.out.println("Default");
-        }
     }
 
     public String getHabidat() {
@@ -17,7 +12,11 @@ public class Birds extends Animals{
     }
 
     public void setHabidat(String habidat) {
-        this.habidat = habidat;
+        if (habidat != null && !habidat.isEmpty() && !habidat.isBlank()){
+            this.habidat = habidat;
+        }else {
+            System.out.println("Default");
+        }
     }
     public void toHunting(){
 
