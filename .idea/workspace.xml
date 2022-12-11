@@ -1,14 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e28953e7-b458-4994-b44b-a14f884092fd" name="Changes" comment="" />
+    <list default="true" id="e28953e7-b458-4994-b44b-a14f884092fd" name="Changes" comment="промежуточный коммит">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Birds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Birds.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FlyingBirds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FlyingBirds.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Herbivories.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Herbivories.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mammals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mammals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NotFlyingBirds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NotFlyingBirds.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Predators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Predators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Train.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Train.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Transport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Transport.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Ifpw8usAGcAlZIXVxGWS0Fmzec" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -16,13 +43,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="OOP_3_Lession" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -31,7 +72,51 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670582730520</updated>
+      <workItem from="1670582732698" duration="16470000" />
+      <workItem from="1670671401169" duration="11516000" />
+      <workItem from="1670752016980" duration="1180000" />
     </task>
+    <task id="LOCAL-00001" summary="done">
+      <created>1670592445307</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670592445307</updated>
+    </task>
+    <task id="LOCAL-00002" summary="промежуточный коммит">
+      <created>1670624350481</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670624350481</updated>
+    </task>
+    <task id="LOCAL-00003" summary="промежуточный коммит">
+      <created>1670687214949</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670687214949</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="done" />
+    <MESSAGE value="промежуточный коммит" />
+    <option name="LAST_COMMIT_MESSAGE" value="промежуточный коммит" />
   </component>
 </project>
